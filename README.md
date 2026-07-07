@@ -115,11 +115,13 @@ Age Group Analysis
 Income Group Analysis
 Fraud Analysis
 Interactive Filters
-🖼️ Dashboard Preview
 
-Replace this image with your dashboard screenshot.
 
-![Dashboard](tableau/dashboard.png)
+ 🖼 Dashboard Preview
+
+![Credit Card Dashboard](tableau/dashboard.png)
+
+
 📌 Key Performance Indicators
 KPI	Value
 👥 Total Customers	3,001

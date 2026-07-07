@@ -119,7 +119,7 @@ Interactive Filters
 
  🖼 Dashboard Preview
 
-![Credit Card Dashboard](tableau/dashboard.png)
+![Credit Card Dashboard](images/dashboard.png)
 
 
 📌 Key Performance Indicators

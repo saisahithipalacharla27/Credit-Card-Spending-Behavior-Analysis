@@ -117,10 +117,9 @@ Fraud Analysis
 Interactive Filters
 
 
- 🖼 Dashboard Preview
+ ## 🖼 Dashboard Preview
 
-![Dashboard](images/dashboard.png)
-
+<img src="images/dashboard.png" alt="Credit Card Dashboard" width="900"/>
 
 
 📌 Key Performance Indicators

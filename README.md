@@ -1,4 +1,4 @@
-# 💳 Credit Card Spending Behavior Analysis
+<!-- # 💳 Credit Card Spending Behavior Analysis
 
 An end-to-end **Data Analytics** project that transforms raw credit card transaction data into actionable business insights using **Excel, Python, MySQL, SQL, and Tableau**. The project demonstrates the complete analytics workflow—from data cleaning and exploration to dashboard development and business recommendations.
 

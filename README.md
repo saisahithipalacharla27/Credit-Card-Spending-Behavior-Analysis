@@ -117,7 +117,7 @@ Fraud Analysis
 Interactive Filters
 
 
- ## 🖼 Dashboard Preview
+  🖼 Dashboard Preview
 
 ![Credit Card Dashboard](./images/creditcarddashboard.png)
 

@@ -90,6 +90,8 @@ Interactive Filters
 Replace this image with your dashboard screenshot.
 
 ![Dashboard](tableau/dashboard.png)
+
+
 📌 Key Performance Indicators
 KPI	Value
 👥 Total Customers	3,001

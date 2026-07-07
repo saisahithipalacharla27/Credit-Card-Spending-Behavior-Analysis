@@ -119,7 +119,7 @@ Interactive Filters
 
  ## 🖼 Dashboard Preview
 
-<img src="https://github.com/saisahithipalacharla27/Credit-Card-Spending-Behavior-Analysis/blob/main/images/dashboard.png" width="900"/>
+<img src="images/dashboard.png" width="900"/>
 
 
 📌 Key Performance Indicators

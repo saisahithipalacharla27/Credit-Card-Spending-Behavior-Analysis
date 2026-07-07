@@ -1,57 +1,87 @@
-💳 Credit Card Spending Behavior Analysis
+# 💳 Credit Card Spending Behavior Analysis
 
-📌 Project Overview
+An end-to-end **Data Analytics** project that transforms raw credit card transaction data into actionable business insights using **Excel, Python, MySQL, SQL, and Tableau**. The project demonstrates the complete analytics workflow—from data cleaning and exploration to dashboard development and business recommendations.
 
-Banks process thousands of credit card transactions every day. These transactions contain valuable information that helps financial institutions understand customer spending behavior, identify profitable customer segments, monitor fraud, and improve decision-making.
+---
 
-📌 Project Statement
-This project analyzes 5,000 credit card transactions from 3,001 customers using Excel, Python, MySQL, SQL, and Tableau to transform raw transactional data into meaningful business insights through an interactive dashboard.
+## 📌 Project Overview
 
-🎯 Business Objectives
+Financial institutions process millions of credit card transactions every day. Analyzing these transactions helps banks understand customer spending patterns, identify profitable customer segments, monitor fraudulent activities, and make data-driven business decisions.
 
-The objective of this project is to answer key business questions such as:
+This project analyzes **5,000 credit card transactions** from **3,001 customers** to uncover spending behavior, customer preferences, and revenue opportunities through an interactive Tableau dashboard.
 
-Which customers generate the highest revenue?
-Which merchant categories contribute the most spending?
-Which card types are most profitable?
-Which income group spends the most?
-How do customers prefer to make payments?
-What is the fraud rate?
-What strategies can improve customer retention and revenue?
+---
 
-🛠️ Tools & Technologies
-Microsoft Excel
-Python (Pandas, Matplotlib)
-MySQL
-SQL
-Tableau Desktop
-VS Code
-Git & GitHub
+## 🎯 Business Problem
 
+Banks require actionable insights from transaction data to answer critical business questions such as:
 
-📊 Dataset Information
-Metric	Value
-Total Customers	3,001
-Total Transactions	5,000
-Total Spending	₹47.59 Million
-Average Transaction	₹9,518
-Fraud Rate	4.86%
-Dataset Features
-Customer Details
-Card Type
-Merchant Category
-Transaction Amount
-Payment Mode
-Income Group
-Age Group
-Reward Points
-Credit Limit
-Outstanding Balance
-Fraud Flag
+* Which customers generate the highest revenue?
+* Which merchant categories contribute the most spending?
+* Which card types are the most profitable?
+* Which customer segments should be targeted for premium offerings?
+* How do customers prefer to make payments?
+* What is the current fraud rate?
+* Which business strategies can improve customer retention and profitability?
 
+---
 
-⚙️ Project Workflow
-Raw CSV Files
+## 🎯 Business Objectives
+
+* Analyze customer spending behavior.
+* Identify high-value customer segments.
+* Evaluate card-wise and category-wise spending.
+* Measure fraud occurrence.
+* Develop an executive dashboard for decision-makers.
+* Generate business recommendations to improve revenue and customer engagement.
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Category        | Technologies                     |
+| --------------- | -------------------------------- |
+| Data Cleaning   | Microsoft Excel, Python (Pandas) |
+| Data Analysis   | Python, SQL                      |
+| Database        | MySQL                            |
+| Visualization   | Tableau                          |
+| Programming     | Python                           |
+| Version Control | Git & GitHub                     |
+| IDE             | VS Code                          |
+
+---
+
+## 📊 Dataset Information
+
+| Metric                    |          Value |
+| ------------------------- | -------------: |
+| Total Customers           |          3,001 |
+| Total Transactions        |          5,000 |
+| Total Spending            | ₹47.59 Million |
+| Average Transaction Value |         ₹9,518 |
+| Fraud Rate                |          4.86% |
+
+### Dataset Features
+
+* Customer ID
+* Gender
+* Age Group
+* Income Group
+* Card Type
+* Merchant Category
+* Transaction Amount
+* Payment Mode
+* Credit Limit
+* Outstanding Balance
+* Reward Points
+* Fraud Flag
+
+---
+
+## ⚙️ Project Workflow
+
+```text
+Raw CSV Dataset
         │
         ▼
 Excel Data Cleaning
@@ -90,8 +120,6 @@ Interactive Filters
 Replace this image with your dashboard screenshot.
 
 ![Dashboard](tableau/dashboard.png)
-
-
 📌 Key Performance Indicators
 KPI	Value
 👥 Total Customers	3,001
@@ -120,34 +148,87 @@ Strengthen fraud prevention using AI-based monitoring and real-time alerts.
 Credit-Card-Spending-Behavior-Analysis/
 │
 ├── data/
-├── python/
 ├── database/
-├── tableau/
-├── reports/
+├── Excel/
 ├── images/
+├── python/
+├── reports/
+├── tableau/
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
+```
 
+---
 
-🚀 Skills Demonstrated
-Excel Data Cleaning
-Python (Pandas)
-Exploratory Data Analysis
-MySQL Database Design
-SQL Business Analysis
-Tableau Dashboard Development
-Business Intelligence
-KPI Reporting
-Business Storytelling
-Banking Domain Analytics
+# 🚀 How to Run
 
+### Clone the repository
 
-📄 Project Report
-A detailed Business Intelligence Report explaining the analysis, dashboard interpretation, insights, and recommendations is included in the reports folder.
+```bash
+git clone https://github.com/saisahithipalacharla27/Credit-Card-Spending-Behavior-Analysis.git
+```
 
-👩‍💻 Author
+### Navigate to the project
 
-Sai Sahithi Palacharla
+```bash
+cd Credit-Card-Spending-Behavior-Analysis
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Execute Python scripts
+
+```bash
+python python/data_cleaning.py
+```
+
+### Open Dashboard
+
+Open the Tableau workbook available in the `tableau/` folder using Tableau Desktop or Tableau Public.
+
+---
+
+# 📚 Skills Demonstrated
+
+* Data Cleaning
+* Data Wrangling
+* Exploratory Data Analysis (EDA)
+* SQL Query Writing
+* Database Design
+* Tableau Dashboard Development
+* KPI Reporting
+* Business Intelligence
+* Data Visualization
+* Business Storytelling
+* Banking Domain Analytics
+* Git & GitHub Version Control
+
+---
+
+# 🔮 Future Enhancements
+
+* Build a real-time dashboard using live transaction data.
+* Develop a machine learning model for fraud prediction.
+* Create a Streamlit web application for interactive analytics.
+* Automate monthly business reporting.
+* Perform customer segmentation using clustering techniques.
+
+---
+
+# 📄 Project Report
+
+A detailed Business Intelligence Report explaining the methodology, dashboard interpretation, business insights, and recommendations is available in the **reports/** folder.
+
+---
+
+# 👩‍💻 Author
+
+**Sai Sahithi Palacharla**
 
 Aspiring Data Analyst
 

@@ -1,4 +1,4 @@
--- USE CreditCardAnalysis; -- commented out to avoid parser error
+ --USE CreditCardAnalysis; -- commented out to avoid parser error
 
 -- =====================================================
 -- 1. View Customers
@@ -105,14 +105,13 @@ LIMIT 10;
 -- ====================================================
 
 SELECT
-    MONTHNAME(Transaction_Date) AS Month,
+    EXTRACT(MONTH FROM Transaction_Date) AS Month_Number,
     SUM(Amount) AS Total_Spending
 FROM transactions
 GROUP BY
-    MONTH(Transaction_Date),
-    MONTHNAME(Transaction_Date)
+    EXTRACT(MONTH FROM Transaction_Date)
 ORDER BY
-    MONTH(Transaction_Date);
+    EXTRACT(MONTH FROM Transaction_Date);
 
 -- =====================================================
 -- 13. Card Type Usage

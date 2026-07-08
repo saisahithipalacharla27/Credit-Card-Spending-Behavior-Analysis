@@ -235,4 +235,171 @@ A detailed Business Intelligence Report explaining the methodology, dashboard in
 Aspiring Data Analyst
 
 🔗 GitHub: https://github.com/saisahithipalacharla27
-💼 LinkedIn: https://www.linkedin.com/in/sahithipalacharla/
+💼 LinkedIn: https://www.linkedin.com/in/sahithipalacharla/ -->
+
+# 💳 Credit Card Spending Behavior Analysis Dashboard
+
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue?logo=python)
+![SQL](https://img.shields.io/badge/SQL-Database%20Analysis-orange)
+![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?logo=pandas)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+---
+
+## 📌 Project Overview
+
+This project analyzes **3000+ credit card transactions** to understand customer spending behavior, transaction patterns, fraud activities, and revenue drivers across different cities, merchant categories, payment methods, and card segments.
+
+The objective was to transform raw transaction data into actionable business insights that help banks improve:
+
+- Customer engagement strategies
+- Card usage optimization
+- Fraud monitoring
+- Marketing campaigns
+- Revenue growth opportunities
+
+---
+
+## 🎯 Business Questions
+
+The analysis focuses on answering key business questions:
+
+- Which cities contribute the highest transaction value?
+- Which merchant categories generate maximum spending?
+- How do customers prefer to make payments?
+- Which card types generate higher revenue?
+- What patterns exist in fraudulent transactions?
+- Who are the highest-value customers?
+
+---
+
+## 🛠️ Tools Used
+
+- Python
+- Pandas
+- NumPy
+- SQL
+- Matplotlib
+- Seaborn
+- Power BI
+- Excel
+- Data Cleaning & Exploratory Data Analysis
+
+---
+
+## 📊 Data Analysis Workflow
+
+The project follows an end-to-end analytics workflow:
+
+### 1. Data Cleaning
+
+- Handled missing values
+- Removed duplicate transactions
+- Standardized categorical fields
+- Converted date columns into analysis-ready formats
+
+### 2. Exploratory Data Analysis
+
+Performed analysis on:
+
+- Customer spending patterns
+- Transaction trends
+- City-wise contribution
+- Merchant category performance
+- Payment preferences
+- Fraud detection patterns
+
+### 3. Dashboard Development
+
+Built an interactive dashboard to provide business users with quick insights.
+
+---
+
+## 📈 Key Metrics
+
+The dashboard tracks important business KPIs:
+
+- 💰 Total Spending
+- 👥 Total Customers
+- 💳 Total Transactions
+- 📊 Average Transaction Value
+- 🚨 Fraud Transaction Rate
+- 🏙️ Top Performing Cities
+- 🛒 Highest Revenue Categories
+
+---
+
+## 📊 Dashboard Features
+
+- Executive Summary Dashboard
+- Monthly Spending Trend Analysis
+- City-wise Spending Analysis
+- Merchant Category Performance
+- Card Type Analysis
+- Payment Mode Analysis
+- Fraud Detection Dashboard
+- Customer Segmentation
+- Interactive Filters
+
+---
+
+## 🖼️ Dashboard Preview
+
+![Credit Card Dashboard](images/creditcarddashboard.png)
+
+---
+
+## 💡 Key Business Insights
+
+- 🏙️ Top-performing cities contribute significantly to overall transaction revenue, indicating strong customer activity in these markets.
+
+- 💳 Premium card categories show higher spending patterns, creating opportunities for targeted upgrade campaigns.
+
+- 🛒 Grocery, shopping, and lifestyle categories represent major spending drivers.
+
+- 📱 Digital payment methods demonstrate strong adoption among customers.
+
+- 🚨 Fraud transactions represent a small percentage of total activity but require continuous monitoring.
+
+- 👥 High-value customers contribute a significant portion of total spending and can be targeted through loyalty programs.
+
+---
+
+## 🚀 Business Recommendations
+
+Based on the analysis:
+
+- Launch premium card promotions in high-spending cities.
+- Provide cashback and rewards for frequently used merchant categories.
+- Develop personalized offers based on customer spending behavior.
+- Strengthen fraud monitoring for suspicious transaction patterns.
+- Create loyalty programs for high-value customers.
+
+---
+
+## 📂 Repository Structure
+
+```text
+Credit-Card-Spending-Analysis/
+
+│
+├── data/
+│   └── credit_card_transactions.csv
+│
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── sql/
+│   └── analysis_queries.sql
+│
+├── dashboard/
+│   └── Credit_Card_Dashboard.pbix
+│
+├── images/
+│   └── dashboard.png
+│
+├── report/
+│   └── Credit_Card_Analysis_Report.pdf
+│
+└── README.md

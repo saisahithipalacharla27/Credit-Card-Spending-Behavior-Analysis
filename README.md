@@ -182,9 +182,8 @@ git clone https://github.com/saisahithipalacharla27/Credit-Card-Spending-Behavio
 ---
 
 ## 📂 Repository Structure
-
-Credit-Card-Spending-Analysis/
 ```text
+Credit-Card-Spending-Analysis/
 │
 ├── data/
 │   └── credit_card_transactions.csv

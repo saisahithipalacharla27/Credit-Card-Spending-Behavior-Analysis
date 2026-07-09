@@ -105,13 +105,11 @@ LIMIT 10;
 -- ====================================================
 
 SELECT
-    EXTRACT(MONTH FROM Transaction_Date) AS Month_Number,
+    MONTHNAME(Transaction_Date) AS Month,
     SUM(Amount) AS Total_Spending
 FROM transactions
-GROUP BY
-    EXTRACT(MONTH FROM Transaction_Date)
-ORDER BY
-    EXTRACT(MONTH FROM Transaction_Date);
+GROUP BY MONTH(Transaction_Date), MONTHNAME(Transaction_Date)
+ORDER BY MONTH(Transaction_Date);
 
 -- =====================================================
 -- 13. Card Type Usage
